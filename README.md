@@ -16,15 +16,16 @@ Download size of this image is only:
 Usage Example
 -------------
 
-```bash
-$ make run PATH="./main.py"
+When build, use
+
+```
+$ ./build.sh
 ```
 
-Once you have run this command you will run ./main.py Or use it interactivelly:
+When run, use
 
-```bash
-$ make run
 ```
-
+$ ./run.sh
+```
 
 NOTE: `pip`/`pip3` is also available in this image.

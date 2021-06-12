@@ -17,13 +17,13 @@ Usage Example
 -------------
 
 ```bash
-$ docker run --rm frolvlad/alpine-python3 python3 -c 'print("Hello World")'
+$ make run PATH="./main.py"
 ```
 
-Once you have run this command you will get printed 'Hello World' from Python!  Or use it interactivelly:
+Once you have run this command you will run ./main.py Or use it interactivelly:
 
 ```bash
-$ docker run -it --rm frolvlad/alpine-python3 python3
+$ make run
 ```
 
 
